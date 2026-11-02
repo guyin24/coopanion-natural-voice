@@ -1,0 +1,49 @@
+name: Agent 整理的问题反馈
+description: 由 agent 协助代笔，区分实测、推测与未验证项，由用户核对后提交。
+title: "[Agent 反馈] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        按 [FEEDBACK.md](https://github.com/guyin24/coopanion-natural-voice/blob/main/FEEDBACK.md) 整理。
+        **先让用户核对草稿，取得发帖授权后再提交。** 未复现写 `not_reproduced`，未做写 `not_run`，不编造版本或测试结果。
+        不提交真实凭据、`.env`、完整用户数据、私人聊天或签名下载链接。
+  - type: textarea
+    id: user_problem
+    attributes:
+      label: 用户实际现象与期望
+      description: 保留用户原意，说明实际影响，不扩展任务。
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: 已确认的环境与信息来源
+      placeholder: "插件 / 宿主 / Windows 版本：\n安装来源：\nTTS 平台 / 模型 / 音色：\n相关设置：\n用户描述或只读检查：\n未知项："
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 最小复现步骤、期望与实际结果
+      description: 无法复现写 not_reproduced，并说明缺少的条件。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 已确认的事实与脱敏证据
+      description: 写实际执行的检查与结果；源码发现注明位置，不把推断写成运行证据。
+  - type: textarea
+    id: uncertainty
+    attributes:
+      label: 可能原因与未验证项
+      placeholder: "可能原因（推测）：\n未执行的检查（not_run）及原因：\n不能确认的结论："
+  - type: textarea
+    id: attempts
+    attributes:
+      label: 已尝试办法及对用户环境的影响
+      description: 如改过配置或文件，说明授权范围、修改内容与结果；没有写“无”。
+  - type: textarea
+    id: review
+    attributes:
+      label: 代笔与用户核对情况
+      description: 说明用户提供的信息、agent 做过的工作，以及是否经用户核对并授权提交。

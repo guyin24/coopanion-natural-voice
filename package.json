@@ -1,8 +1,8 @@
 {
   "name": "cortico-world-natural-voice",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "type": "module",
-  "description": "Automatically read Coopanion's replies aloud through a configurable online TTS service",
+  "description": "作用：让 Coopanion 桌宠朗读新回复，支持多平台联网语音、模型与音色选择、试听、停止和语气跟随。\n\n影响：需自备 API Key；朗读文字会发送给所选服务并可能收费，预合成被打断后也可能计费。可选语气标注会增加模型输出和等待；播放会使用网络与默认音频设备。\n\n局限：仅支持 Windows，依赖桌宠扩展；连续推流目前仅覆盖阿里 WebSocket。语气功能受模型支持范围限制，不保证零延迟、逐字或口型同步；其他平台主要经模拟协议测试。\n\n反馈：[普通用户反馈](https://github.com/guyin24/coopanion-natural-voice/issues/new?template=user-bug.yml) / [agent 整理反馈](https://github.com/guyin24/coopanion-natural-voice/issues/new?template=agent-bug.yml)。请说明版本、平台/模型/音色、复现步骤及脱敏报错，未知项可写“未知”。描述不清可让 agent 代笔，核对后提交；agent 应区分实测、推测和未验证项。详见[反馈说明](https://github.com/guyin24/coopanion-natural-voice/blob/main/FEEDBACK.md)。",
   "license": "MIT",
   "author": "guyin24",
   "engines": {
@@ -26,24 +26,30 @@
     "CHANGELOG.md",
     "describe.json",
     "README.en.md",
-    "NOTICE.md"
+    "NOTICE.md",
+    "FEEDBACK.md"
   ],
   "cortico": {
     "kind": "world",
     "api": 6,
     "displayName": "自然语音",
-    "tags": ["voice", "requires-key", "requires-extension", "experimental"],
+    "tags": [
+      "voice",
+      "requires-key",
+      "requires-extension",
+      "experimental"
+    ],
     "describe": "describe.json",
     "webUiClient": "web/client.js",
     "webUiStyle": "web/style.css",
     "locales": {
       "zh": {
         "displayName": "自然语音",
-        "description": "自动朗读桌宠回复，可配置联网 TTS 服务与音色。"
+        "description": "作用：让 Coopanion 桌宠朗读新回复，支持多平台联网语音、模型与音色选择、试听、停止和语气跟随。\n\n影响：需自备 API Key；朗读文字会发送给所选服务并可能收费，预合成被打断后也可能计费。可选语气标注会增加模型输出和等待；播放会使用网络与默认音频设备。\n\n局限：仅支持 Windows，依赖桌宠扩展；连续推流目前仅覆盖阿里 WebSocket。语气功能受模型支持范围限制，不保证零延迟、逐字或口型同步；其他平台主要经模拟协议测试。\n\n反馈：[普通用户反馈](https://github.com/guyin24/coopanion-natural-voice/issues/new?template=user-bug.yml) / [agent 整理反馈](https://github.com/guyin24/coopanion-natural-voice/issues/new?template=agent-bug.yml)。请说明版本、平台/模型/音色、复现步骤及脱敏报错，未知项可写“未知”。描述不清可让 agent 代笔，核对后提交；agent 应区分实测、推测和未验证项。详见[反馈说明](https://github.com/guyin24/coopanion-natural-voice/blob/main/FEEDBACK.md)。"
       },
       "en": {
         "displayName": "Natural Voice",
-        "description": "Read pet replies aloud using a configurable online TTS service."
+        "description": "Purpose: Read new Coopanion pet replies with online TTS, selectable models/voices, preview, stop and delivery following.\n\nEffects: Requires your own TTS credentials. Spoken text goes to the selected provider and may incur charges, including speculative synthesis cancelled after it starts. Optional tone annotations add model output and latency. Playback uses the network and default audio device.\n\nLimits: Windows and the desktop-pet World are required. Continuous provider streaming currently covers Aliyun WebSocket. Delivery depends on model support; zero latency, word or lip synchronization are not guaranteed. Other providers are primarily fixture-tested.\n\nReport issues via [user feedback](https://github.com/guyin24/coopanion-natural-voice/issues/new?template=user-bug.yml) or [agent-assisted feedback](https://github.com/guyin24/coopanion-natural-voice/issues/new?template=agent-bug.yml). Include versions, provider/model/voice, steps and redacted errors; unknown information may stay unknown. If you cannot describe the problem clearly, ask an agent to draft it and review the draft before posting. Agents must distinguish observations, hypotheses and unverified items. See the [feedback guide](https://github.com/guyin24/coopanion-natural-voice/blob/main/FEEDBACK.md)."
       }
     }
   },

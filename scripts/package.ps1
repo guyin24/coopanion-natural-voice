@@ -69,7 +69,7 @@ try {
   }
 } finally { $zip.Dispose(); $sha.Dispose() }
 if ($names.Count -ne $manifest.files.Count) { throw 'Archive file count mismatch.' }
-foreach ($required in @('package.json', 'src/index.js', 'src/native/PcmPlayer.cs', 'src/player-stream.js', 'src/providers/aliyun-stream.js', 'web/client.js', 'describe.json', 'LICENSE', 'NOTICE.md')) {
+foreach ($required in @('package.json', 'src/index.js', 'src/native/PcmPlayer.cs', 'src/player-stream.js', 'src/providers/aliyun-stream.js', 'web/client.js', 'describe.json', 'LICENSE', 'NOTICE.md', 'FEEDBACK.md')) {
   if ($required -notin $names) { throw ('Missing runtime file: ' + $required) }
 }
 $checksums = @($archive, $tarball) | ForEach-Object {

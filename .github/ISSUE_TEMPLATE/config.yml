@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 不知道怎样写？查看反馈说明与 agent 代笔提示词
+    url: https://github.com/guyin24/coopanion-natural-voice/blob/main/FEEDBACK.md
+    about: 不懂技术也可以反馈，未知项可写“未知”；可以让 agent 协助整理并由你核对。

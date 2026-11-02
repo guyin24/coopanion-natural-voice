@@ -1,0 +1,38 @@
+name: 普通用户问题反馈
+description: 用自己的话描述问题；未知项可写“未知”，也可让 agent 代笔。
+title: "[用户反馈] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        不懂技术也可以反馈：先说做了什么、出现什么、希望怎样。
+        **描述不清可以让 agent 代笔，核对后再提交。** [反馈说明与代笔提示词](https://github.com/guyin24/coopanion-natural-voice/blob/main/FEEDBACK.md)
+        请勿上传密钥、令牌、`.env`、完整配置、私人聊天或签名下载链接。
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题现象与期望
+      description: 用自己的话写即可，说明看到或听到了什么，以及希望怎样。
+      placeholder: 例如：保存设置后点试听，一直显示正在生成，但没有声音；希望读出试听文字。
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 怎样遇到这个问题
+      description: 按顺序写操作，是否每次发生；不清楚可写“暂时没找到规律”。
+  - type: textarea
+    id: environment
+    attributes:
+      label: 环境信息（未知项可留空或写“未知”）
+      placeholder: "插件 / Coopanion / Windows 版本：\n安装方式（市场 / ZIP / 本机目录）：\n语音平台 / 模型 / 音色：\n试听还是自动朗读："
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 脱敏报错、截图或已尝试办法（可选）
+      description: 只附相关片段，不要提供密钥、完整业务空间 ID 或整段私人对话。
+  - type: textarea
+    id: assistance
+    attributes:
+      label: 是否由 agent 协助整理（可选）
+      description: 如有，请区分你亲自观察的现象与 agent 检查或推测的内容。

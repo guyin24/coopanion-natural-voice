@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.6.2
+
+- Make the market introduction Chinese-first, covering purpose, data/cost/playback effects, limitations and feedback links.
+- Add user and agent issue forms plus a bundled Chinese feedback guide with an agent drafting prompt and explicit review/evidence guidance.
+- Update GitHub documentation and agent contributor instructions; keep the speech runtime unchanged.
+
 ## 0.6.1
 
 - Prepare the first public npm release as `cortico-world-natural-voice` with the existing World API 6 manifest.

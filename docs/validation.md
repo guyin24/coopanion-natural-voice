@@ -4,6 +4,8 @@ Recorded 2026-11-02, version 0.6.0. This is the first public source snapshot. Lo
 
 Version 0.6.1 updates npm/market metadata and installation documentation only; its `src/` and `web/` runtime files are unchanged from the validated 0.6.0 baseline. Its release checks run again before publication.
 
+Version 0.6.2 updates the market's actual description field, feedback documentation and issue forms. The speech runtime remains unchanged. Metadata, YAML forms, document links, packaged feedback guide and upstream contract checks are verified for this release; it adds no new cloud/device validation claims.
+
 ## Evidence completed locally
 
 - 268 automated tests passed, zero failures/skips, on a Windows development machine with an output device. This includes real native continuous playback, cancellation, recovery and persistent-process reuse, plus loopback protocol and mocked UI/player tests.

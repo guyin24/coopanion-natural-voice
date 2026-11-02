@@ -1,4 +1,4 @@
-# Coopanion 自然语音扩展 0.6.1
+# Coopanion 自然语音扩展 0.6.2
 
 Owner: `src/config.js`、`src/credentials.js`、`src/tts.js`、`src/providers/`、`src/world.js`、`web/client.js`。
 
@@ -10,7 +10,7 @@ Owner: `src/config.js`、`src/credentials.js`、`src/tts.js`、`src/providers/`�
 
 首次安装，或需要改为引用另一个目录时：
 
-1. 完整解压 `Coopanion-Natural-Voice-0.6.1.zip`（或直接使用本源码文件夹）。解压目录的完整路径使用英文、数字或横线，避免中文路径被 Coopanion 安装器拒绝。
+1. 完整解压 `Coopanion-Natural-Voice-0.6.2.zip`（或直接使用本源码文件夹）。解压目录的完整路径使用英文、数字或横线，避免中文路径被 Coopanion 安装器拒绝。
 2. 打开 Coopanion 设置 → World 扩展 → 手动安装 → 本机目录，选择**含 package.json 的 cortico-world-natural-voice 文件夹**。
 3. 如果原来引用其他目录，选择新版本目录后按页面提示重启进程。同名扩展会更新安装来源；不要删除原有记忆或配置。
 4. 启用“自然语音”World，打开“语音设置与试听”。
@@ -143,3 +143,7 @@ Windows waveOut 播放器使用当前默认输出设备，音频通过管道持�
 平台协议、鉴权/签名、返回格式、URL 下载边界、凭据隔离、取消与播放均通过本机模拟接口测试，并进行了真实浏览器面板操作和 Windows 播放验证。
 
 阿里云 CosyVoice 已在本机实际安装的 Coopanion 中使用已保存凭据完成云端合成与 Windows 播放，并修复了真实响应中的 WAV 长度占位标记兼容问题。其他平台目前使用模拟接口验证；账号权限、音质和云端延迟仍需使用自己的凭据试听确认。目标宿主为 Coopanion 0.2.16 / World API 6。
+
+## 问题反馈与 agent 代笔
+
+[反馈说明](FEEDBACK.md)包含普通用户和 agent 的填写方式与模板。不清楚如何描述问题时，可以先让 agent 代笔，核对后再提交。请说明版本、平台/模型/音色、步骤、期望/实际及脱敏报错；未知项写未知，不附密钥、完整配置或私人对话。Agent 应分别标注实测、推测和未验证项。
