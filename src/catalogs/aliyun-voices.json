@@ -1,0 +1,1750 @@
+[
+  {
+    "id": "longanyang",
+    "label": "龙安洋 · 阳光大男孩",
+    "models": [
+      "cosyvoice-v3-flash",
+      "cosyvoice-v3-plus"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longanhuan_v3",
+    "label": "龙安欢（V3） · 欢脱元气女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longanhuan",
+    "label": "龙安欢 · 欢脱元气女",
+    "models": [
+      "cosyvoice-v3-flash",
+      "cosyvoice-v3-plus"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longhuhu_v3",
+    "label": "龙呼呼 · 天真烂漫女童",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longpaopao_v3",
+    "label": "龙泡泡 · 飞天泡泡音",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longjielidou_v3",
+    "label": "龙杰力豆 · 阳光顽皮男",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longxian_v3",
+    "label": "龙仙 · 豪放可爱女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longling_v3",
+    "label": "龙铃 · 稚气呆板女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longshanshan_v3",
+    "label": "龙闪闪 · 戏剧化童声",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longniuniu_v3",
+    "label": "龙牛牛 · 阳光男童声",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longjiaxin_v3",
+    "label": "龙嘉欣 · 优雅粤语女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longjiayi_v3",
+    "label": "龙嘉怡 · 知性粤语女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longanyue_v3",
+    "label": "龙安粤 · 欢脱粤语男",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longlaotie_v3",
+    "label": "龙老铁 · 东北直率男",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longshange_v3",
+    "label": "龙陕哥 · 原味陕北男",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longanmin_v3",
+    "label": "龙安闽 · 清纯萝莉女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "loongkyong_v3",
+    "label": "loongkyong · 韩语女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "ko-KR",
+    "kind": "system"
+  },
+  {
+    "id": "loongriko_v3",
+    "label": "Riko · 二次元霓虹女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "ja-JP",
+    "kind": "system"
+  },
+  {
+    "id": "loongtomoka_v3",
+    "label": "loongtomoka · 日语女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "ja-JP",
+    "kind": "system"
+  },
+  {
+    "id": "loongabby_v3",
+    "label": "loongabby · 美式英文女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "en-US",
+    "kind": "system"
+  },
+  {
+    "id": "loongandy_v3",
+    "label": "loongandy · 美式英文男",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "en-US",
+    "kind": "system"
+  },
+  {
+    "id": "loongannie_v3",
+    "label": "loongannie · 美式英文女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "en-US",
+    "kind": "system"
+  },
+  {
+    "id": "loongava_v3",
+    "label": "loongava · 美式英文女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "en-US",
+    "kind": "system"
+  },
+  {
+    "id": "loongbeth_v3",
+    "label": "loongbeth · 美式英文女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "en-US",
+    "kind": "system"
+  },
+  {
+    "id": "loongbetty_v3",
+    "label": "loongbetty · 美式英文女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "en-US",
+    "kind": "system"
+  },
+  {
+    "id": "loongcally_v3",
+    "label": "loongcally · 美式英文女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "en-US",
+    "kind": "system"
+  },
+  {
+    "id": "loongcindy_v3",
+    "label": "loongcindy · 美式英文女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "en-US",
+    "kind": "system"
+  },
+  {
+    "id": "loongdavid_v3",
+    "label": "loongdavid · 美式英文男",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "en-US",
+    "kind": "system"
+  },
+  {
+    "id": "loongdonna_v3",
+    "label": "loongdonna · 美式英文女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "en-US",
+    "kind": "system"
+  },
+  {
+    "id": "loongemily_v3",
+    "label": "loongemily · 英式英文女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "en-US",
+    "kind": "system"
+  },
+  {
+    "id": "loongeric_v3",
+    "label": "loongeric · 英式英文男",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "en-US",
+    "kind": "system"
+  },
+  {
+    "id": "loongluna_v3",
+    "label": "loongluna · 英式英文女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "en-US",
+    "kind": "system"
+  },
+  {
+    "id": "loongluca_v3",
+    "label": "loongluca · 英式英文男",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "en-US",
+    "kind": "system"
+  },
+  {
+    "id": "loongtomoya_v3",
+    "label": "loongtomoya · 日语男",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "ja-JP",
+    "kind": "system"
+  },
+  {
+    "id": "loongyuuna_v3",
+    "label": "Yuuna · 日语女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "ja-JP",
+    "kind": "system"
+  },
+  {
+    "id": "loongyuuma_v3",
+    "label": "Yuuma · 日语男",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "ja-JP",
+    "kind": "system"
+  },
+  {
+    "id": "loongjihun_v3",
+    "label": "Jihun · 韩语男",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "ko-KR",
+    "kind": "system"
+  },
+  {
+    "id": "loongindah_v3",
+    "label": "loongindah · 印尼女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "id-ID",
+    "kind": "system"
+  },
+  {
+    "id": "longfei_v3",
+    "label": "龙飞 · 热血磁性男",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longyingxiao_v3",
+    "label": "龙应笑 · 清甜推销女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longyingxun_v3",
+    "label": "龙应询 · 年轻青涩男",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longyingjing_v3",
+    "label": "龙应静 · 低调冷静女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longyingling_v3",
+    "label": "龙应聆 · 温和共情女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longyingtao_v3",
+    "label": "龙应桃 · 温柔淡定女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longxiaochun_v3",
+    "label": "龙小淳 · 知性积极女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longxiaoxia_v3",
+    "label": "龙小夏 · 沉稳权威女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longyumi_v3",
+    "label": "YUMI · 正经青年女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longanyun_v3",
+    "label": "龙安昀 · 居家暖男",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longanwen_v3",
+    "label": "龙安温 · 优雅知性女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longanli_v3",
+    "label": "龙安莉 · 利落从容女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longanlang_v3",
+    "label": "龙安朗 · 清爽利落男",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longyingmu_v3",
+    "label": "龙应沐 · 优雅知性女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longantai_v3",
+    "label": "龙安台 · 嗲甜台湾女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longhua_v3",
+    "label": "龙华 · 元气甜美女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longcheng_v3",
+    "label": "龙橙 · 智慧青年男",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longze_v3",
+    "label": "龙泽 · 温暖元气男",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longzhe_v3",
+    "label": "龙哲 · 呆板大暖男",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longyan_v3",
+    "label": "龙颜 · 温暖春风女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longxing_v3",
+    "label": "龙星 · 温婉邻家女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longtian_v3",
+    "label": "龙天 · 磁性理智男",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longwan_v3",
+    "label": "龙婉 · 细腻柔声女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longqiang_v3",
+    "label": "龙嫱 · 浪漫风情女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longfeifei_v3",
+    "label": "龙菲菲 · 甜美娇气女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longhao_v3",
+    "label": "龙浩 · 多情忧郁男",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longanrou_v3",
+    "label": "龙安柔 · 温柔闺蜜女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longhan_v3",
+    "label": "龙寒 · 温暖痴情男",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longanzhi_v3",
+    "label": "龙安智 · 睿智轻熟男",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longanling_v3",
+    "label": "龙安灵 · 思维灵动女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longanya_v3",
+    "label": "龙安雅 · 高雅气质女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longanqin_v3",
+    "label": "龙安亲 · 亲和活泼女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longmiao_v3",
+    "label": "龙妙 · 抑扬顿挫女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longsanshu_v3",
+    "label": "龙三叔 · 沉稳质感男",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longyuan_v3",
+    "label": "龙媛 · 温暖治愈女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longyue_v3",
+    "label": "龙悦 · 温暖磁性女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longxiu_v3",
+    "label": "龙修 · 博才说书男",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longnan_v3",
+    "label": "龙楠 · 睿智青年男",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longwanjun_v3",
+    "label": "龙婉君 · 细腻柔声女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longyichen_v3",
+    "label": "龙逸尘 · 洒脱活力男",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longlaobo_v3",
+    "label": "龙老伯 · 沧桑岁月爷",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longlaoyi_v3",
+    "label": "龙老姨 · 烟火从容阿姨",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longjiqi_v3",
+    "label": "龙机器 · 呆萌机器人",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longhouge_v3",
+    "label": "龙猴哥 · 经典猴哥",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longdaiyu_v3",
+    "label": "龙黛玉 · 娇率才女音",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longanran_v3",
+    "label": "龙安燃 · 活泼质感女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longanxuan_v3",
+    "label": "龙安宣 · 经典直播女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longshuo_v3",
+    "label": "龙硕 · 博才干练男",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longshu_v3",
+    "label": "龙书 · 沉稳青年男",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "loongbella_v3",
+    "label": "Bella3.0 · 精准干练女",
+    "models": [
+      "cosyvoice-v3-flash"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longyingxiao",
+    "label": "龙应笑 · 清甜推销女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longjiqi",
+    "label": "龙机器 · 呆萌机器人",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longhouge",
+    "label": "龙猴哥 · 经典猴哥",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longjixin",
+    "label": "龙机心 · 毒舌心机女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longanyue",
+    "label": "龙安粤 · 欢脱粤语男",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longshange",
+    "label": "龙陕哥 · 原味陕北男",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longanmin",
+    "label": "龙安敏 · 甜美闽南女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longdaiyu",
+    "label": "龙黛玉 · 娇率才女音",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longgaoseng",
+    "label": "龙高僧 · 得道高僧音",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longanli",
+    "label": "龙安莉 · 利落从容女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longanlang",
+    "label": "龙安朗 · 清爽利落男",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longanwen",
+    "label": "龙安温 · 优雅知性女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longanyun",
+    "label": "龙安昀 · 居家暖男",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longyumi_v2",
+    "label": "YUMI · 正经青年女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longxiaochun_v2",
+    "label": "龙小淳 · 知性积极女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longxiaoxia_v2",
+    "label": "龙小夏 · 沉稳权威女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longyichen",
+    "label": "龙逸尘 · 洒脱活力男",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longwanjun",
+    "label": "龙婉君 · 细腻柔声女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longlaobo",
+    "label": "龙老伯 · 沧桑岁月爷",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longlaoyi",
+    "label": "龙老姨 · 烟火从容阿姨",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longbaizhi",
+    "label": "龙白芷 · 睿气旁白女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longsanshu",
+    "label": "龙三叔 · 沉稳质感男",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longxiu_v2",
+    "label": "龙修 · 博才说书男",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longmiao_v2",
+    "label": "龙妙 · 抑扬顿挫女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longyue_v2",
+    "label": "龙悦 · 温暖磁性女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longnan_v2",
+    "label": "龙楠 · 睿智青年男",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longyuan_v2",
+    "label": "龙媛 · 温暖治愈女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longanqin",
+    "label": "龙安亲 · 亲和活泼女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longanya",
+    "label": "龙安雅 · 高雅气质女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longanshuo",
+    "label": "龙安朔 · 干净清爽男",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longanling",
+    "label": "龙安灵 · 思维灵动女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longanzhi",
+    "label": "龙安智 · 睿智轻熟男",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longanrou",
+    "label": "龙安柔 · 温柔闺蜜女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longqiang_v2",
+    "label": "龙嫱 · 浪漫风情女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longhan_v2",
+    "label": "龙寒 · 温暖痴情男",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longxing_v2",
+    "label": "龙星 · 温婉邻家女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longhua_v2",
+    "label": "龙华 · 元气甜美女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longwan_v2",
+    "label": "龙婉 · 积极知性女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longcheng_v2",
+    "label": "龙橙 · 智慧青年男",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longfeifei_v2",
+    "label": "龙菲菲 · 甜美娇气女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longxiaocheng_v2",
+    "label": "龙小诚 · 磁性低音男",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longzhe_v2",
+    "label": "龙哲 · 呆板大暖男",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longyan_v2",
+    "label": "龙颜 · 温暖春风女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longtian_v2",
+    "label": "龙天 · 磁性理智男",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longze_v2",
+    "label": "龙泽 · 温暖元气男",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longshao_v2",
+    "label": "龙邵 · 积极向上男",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longhao_v2",
+    "label": "龙浩 · 多情忧郁男",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "kabuleshen_v2",
+    "label": "龙深 · 实力歌手男",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longhuhu",
+    "label": "龙呼呼 · 天真烂漫女童",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longanpei",
+    "label": "龙安培 · 青少年教师女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longwangwang",
+    "label": "龙汪汪 · 台湾少年音",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longpaopao",
+    "label": "龙泡泡 · 飞天泡泡音",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longshanshan",
+    "label": "龙闪闪 · 戏剧化童声",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longniuniu",
+    "label": "龙牛牛 · 阳光男童声",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longyingmu",
+    "label": "龙应沐 · 优雅知性女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longyingxun",
+    "label": "龙应询 · 年轻青涩男",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longyingcui",
+    "label": "龙应催 · 严肃催收男",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longyingda",
+    "label": "龙应答 · 开朗高音女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longyingjing",
+    "label": "龙应静 · 低调冷静女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longyingyan",
+    "label": "龙应严 · 义正严辞女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longyingtian",
+    "label": "龙应甜 · 温柔甜美女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longyingbing",
+    "label": "龙应冰 · 尖锐强势女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longyingtao",
+    "label": "龙应桃 · 温柔淡定女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longyingling",
+    "label": "龙应聆 · 温和共情女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longanran",
+    "label": "龙安燃 · 活泼质感女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longanxuan",
+    "label": "龙安宣 · 经典直播女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longanchong",
+    "label": "龙安冲 · 激情推销男",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longanping",
+    "label": "龙安萍 · 高亢直播女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longjielidou_v2",
+    "label": "龙杰力豆 · 阳光顽皮男",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longling_v2",
+    "label": "龙铃 · 稚气呆板女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longke_v2",
+    "label": "龙可 · 懵懂乖乖女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longxian_v2",
+    "label": "龙仙 · 豪放可爱女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longlaotie_v2",
+    "label": "龙老铁 · 东北直率男",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longjiayi_v2",
+    "label": "龙嘉怡 · 知性粤语女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longtao_v2",
+    "label": "龙桃 · 积极粤语女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longfei_v2",
+    "label": "龙飞 · 热血磁性男",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "libai_v2",
+    "label": "李白 · 古代诗仙男",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longjin_v2",
+    "label": "龙津 · 优雅温润男",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longshu_v2",
+    "label": "龙书 · 沉稳青年男",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "loongbella_v2",
+    "label": "Bella2.0 · 精准干练女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longshuo_v2",
+    "label": "龙硕 · 博才干练男",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longxiaobai_v2",
+    "label": "龙小白 · 沉稳播报女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "longjing_v2",
+    "label": "龙婧 · 典型播音女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "loongstella_v2",
+    "label": "loongstella · 飒爽利落女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "zh-CN",
+    "kind": "system"
+  },
+  {
+    "id": "loongyuuna_v2",
+    "label": "loongyuuna · 元气霓虹女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "ja-JP",
+    "kind": "system"
+  },
+  {
+    "id": "loongyuuma_v2",
+    "label": "loongyuuma · 干练霓虹男",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "ja-JP",
+    "kind": "system"
+  },
+  {
+    "id": "loongjihun_v2",
+    "label": "loongjihun · 阳光韩国男",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "ko-KR",
+    "kind": "system"
+  },
+  {
+    "id": "loongeva_v2",
+    "label": "loongeva · 知性英文女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "en-US",
+    "kind": "system"
+  },
+  {
+    "id": "loongbrian_v2",
+    "label": "loongbrian · 沉稳英文男",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "en-US",
+    "kind": "system"
+  },
+  {
+    "id": "loongluna_v2",
+    "label": "loongluna · 英式英文女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "en-US",
+    "kind": "system"
+  },
+  {
+    "id": "loongluca_v2",
+    "label": "loongluca · 英式英文男",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "en-US",
+    "kind": "system"
+  },
+  {
+    "id": "loongemily_v2",
+    "label": "loongemily · 英式英文女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "en-US",
+    "kind": "system"
+  },
+  {
+    "id": "loongeric_v2",
+    "label": "loongeric · 英式英文男",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "en-US",
+    "kind": "system"
+  },
+  {
+    "id": "loongabby_v2",
+    "label": "loongabby · 美式英文女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "en-US",
+    "kind": "system"
+  },
+  {
+    "id": "loongannie_v2",
+    "label": "loongannie · 美式英文女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "en-US",
+    "kind": "system"
+  },
+  {
+    "id": "loongandy_v2",
+    "label": "loongandy · 美式英文男",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "en-US",
+    "kind": "system"
+  },
+  {
+    "id": "loongava_v2",
+    "label": "loongava · 美式英文女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "en-US",
+    "kind": "system"
+  },
+  {
+    "id": "loongbeth_v2",
+    "label": "loongbeth · 美式英文女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "en-US",
+    "kind": "system"
+  },
+  {
+    "id": "loongbetty_v2",
+    "label": "loongbetty · 美式英文女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "en-US",
+    "kind": "system"
+  },
+  {
+    "id": "loongcindy_v2",
+    "label": "loongcindy · 美式英文女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "en-US",
+    "kind": "system"
+  },
+  {
+    "id": "loongcally_v2",
+    "label": "loongcally · 美式英文女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "en-US",
+    "kind": "system"
+  },
+  {
+    "id": "loongdavid_v2",
+    "label": "loongdavid · 美式英文男",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "en-US",
+    "kind": "system"
+  },
+  {
+    "id": "loongdonna_v2",
+    "label": "loongdonna · 美式英文女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "en-US",
+    "kind": "system"
+  },
+  {
+    "id": "loongkyong_v2",
+    "label": "loongkyong · 韩语女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "ko-KR",
+    "kind": "system"
+  },
+  {
+    "id": "loongtomoka_v2",
+    "label": "loongtomoka · 日语女",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "ja-JP",
+    "kind": "system"
+  },
+  {
+    "id": "loongtomoya_v2",
+    "label": "loongtomoya · 日语男",
+    "models": [
+      "cosyvoice-v2"
+    ],
+    "locale": "ja-JP",
+    "kind": "system"
+  }
+]

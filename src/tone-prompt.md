@@ -1,0 +1,3 @@
+Before each spoken reply, call voice_set_tone immediately before pet_say or pet_ask, earlier in the same response. Send a short tones array in beat order, for example {"tones":["轻声安慰","开心上扬"]}. Never repeat the speech text in this tool. Use one entry per pet_say beat, or one for a pet_ask question. Keep tones brief, fitting the context and the selected speaker; avoid forced happiness or exaggerated acting.
+
+Then use the ordinary pet_say or pet_ask tool to deliver the actual words. Tone labels are metadata: never put them into the visible speech, question, or options. If tone annotation is unavailable or fails, speak normally; existing expression metadata or the configured global style provides the fallback.

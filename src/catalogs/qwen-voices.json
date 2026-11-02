@@ -1,0 +1,1118 @@
+[
+  {
+    "id": "longanlingxin_v3.1",
+    "label": "龙安灵心_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-plus",
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "xunanchuan_v3.1",
+    "label": "许南川",
+    "models": [
+      "qwen-audio-3.1-tts-plus",
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longanhuan_v3.1",
+    "label": "龙安欢_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-plus",
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longanfengyue_v3.1",
+    "label": "龙安风悦_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-plus",
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "yuxiaoyun_v3.1",
+    "label": "于小云",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qiaoxiaojiao_v3.1",
+    "label": "乔小娇",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "xiaxiaochen_v3.1",
+    "label": "夏小晨",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "anmingyuan_v3.1",
+    "label": "安明远",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "wenhuaiqing_v3.1",
+    "label": "温怀清",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "anxiaolan_v3.1",
+    "label": "安小岚",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "xieshurou_v3.1",
+    "label": "谢舒柔",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "baiqinglan_v3.1",
+    "label": "白清岚",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "xuyuyuan_v3.1",
+    "label": "许玉远",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "anruorou_v3.1",
+    "label": "安若柔",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "wenhuaizhi_v3.1",
+    "label": "闻怀之",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "xiaoxingzhi_v3.1",
+    "label": "萧行之",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "guyunshu_v3.1",
+    "label": "顾云舒",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "huozhuoshi_v3.1",
+    "label": "霍拙石",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "yeqinghe_v3.1",
+    "label": "叶清禾",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "yunhuanhuan_v3.1",
+    "label": "云欢欢",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "xuxiaoqiao_v3.1",
+    "label": "徐小俏",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "baianran_v3.1",
+    "label": "白安然",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "xuyanchu_v3.1",
+    "label": "许言初",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "yezhiqing_v3.1",
+    "label": "叶知晴",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "andi_v3.1",
+    "label": "安迪",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "anyuqing_v3.1",
+    "label": "安语晴",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "linxiaoling_v3.1",
+    "label": "林小灵",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longfeifei_v3.1",
+    "label": "龙菲菲_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longjing_v3.1",
+    "label": "龙婧_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longqiang_v3.1",
+    "label": "龙嫱_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longyan_v3.1",
+    "label": "龙颜_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longxiaobai_v3.1",
+    "label": "龙小白_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longyue_v3.1",
+    "label": "龙悦_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longcheng_v3.1",
+    "label": "龙橙_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longlaotie_v3.1",
+    "label": "龙老铁_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longshao_v3.1",
+    "label": "龙邵_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longshu_v3.1",
+    "label": "龙书_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longze_v3.1",
+    "label": "龙泽_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longhao_v3.1",
+    "label": "龙浩_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longjin_v3.1",
+    "label": "龙津_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longnan_v3.1",
+    "label": "龙楠_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longshuo_v3.1",
+    "label": "龙硕_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longtian_v3.1",
+    "label": "龙天_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longxiaocheng_v3.1",
+    "label": "龙小诚_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longke_v3.1",
+    "label": "龙可_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "loongbella_v3.1",
+    "label": "Bella_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "Emily_v3.1",
+    "label": "Emily",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "Luna_v3.1",
+    "label": "Luna",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "Eric_v3.1",
+    "label": "Eric",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "Luca_v3.1",
+    "label": "Luca",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "Abby_v3.1",
+    "label": "Abby",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "Annie_v3.1",
+    "label": "Annie",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "Ava_v3.1",
+    "label": "Ava",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "Beth_v3.1",
+    "label": "Beth",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "Betty_v3.1",
+    "label": "Betty",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "Cally_v3.1",
+    "label": "Cally",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "Cindy_v3.1",
+    "label": "Cindy",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "Donna_v3.1",
+    "label": "Donna",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "Andy_v3.1",
+    "label": "Andy",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "Brian_v3.1",
+    "label": "Brian",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "David_v3.1",
+    "label": "David",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longanyuanfei_v3.1",
+    "label": "龙安元妃_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longjielidou_v3.1",
+    "label": "龙杰力豆_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longanlingxi_v3.1",
+    "label": "龙安灵希_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longhuohuo_v3.1",
+    "label": "龙火火_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longyingtao_v3.1",
+    "label": "龙应桃_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longanya_v3.1",
+    "label": "龙安雅_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longwan_v3.1",
+    "label": "龙婉_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longxing_v3.1",
+    "label": "龙星_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longhua_v3.1",
+    "label": "龙华_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longhan_v3.1",
+    "label": "龙寒_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longanzhi_v3.1",
+    "label": "龙安智_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longzhe_v3.1",
+    "label": "龙哲_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longanyang_v3.1",
+    "label": "龙安洋_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "libai_v3.1",
+    "label": "李白_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longling_v3.1",
+    "label": "龙铃_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longniuniu_v3.1",
+    "label": "龙牛牛_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longshanshan_v3.1",
+    "label": "龙闪闪_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longpaopao_v3.1",
+    "label": "龙泡泡_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "loongstella_v3.1",
+    "label": "loongstella_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longyuan_v3.1",
+    "label": "龙媛_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longmiao_v3.1",
+    "label": "龙妙_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longsanshu_v3.1",
+    "label": "龙三叔_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longanli_v3.1",
+    "label": "龙安莉_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longanwen_v3.1",
+    "label": "龙安温_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longanlang_v3.1",
+    "label": "龙安朗_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longxiaoxia_v3.1",
+    "label": "龙小夏_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "longanchong_v3.1",
+    "label": "龙安冲_v3.1",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-zora_bg",
+    "label": "Zora",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-linde_nl",
+    "label": "Linde",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-hajnal_hu",
+    "label": "Hajnal",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-senin_ro",
+    "label": "Senin",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-birk_da",
+    "label": "Birk",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-lipa_hr",
+    "label": "Lipa",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-avgi_el",
+    "label": "Avgi",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-jitrenka_cs",
+    "label": "Jitrenka",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-solglimt_nn",
+    "label": "Solglimt",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-glimma_sv",
+    "label": "Glimma",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-svar_hi",
+    "label": "Svar",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-iskra_sk",
+    "label": "Iskra",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-aava_fi",
+    "label": "Aava",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-sahar_ur",
+    "label": "Sahar",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-jasna_sr",
+    "label": "Jasna",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-brisa_es_mx",
+    "label": "Brisa",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-ausra_lt",
+    "label": "Ausra",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-rasa_lv",
+    "label": "Rasa",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-deniz_tr",
+    "label": "Deniz",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-ava_fa",
+    "label": "Ava",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-or_he",
+    "label": "Or",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-ayalguu_mn",
+    "label": "Ayalguu",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-zarja_sl",
+    "label": "Zarja",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-ishiq_az",
+    "label": "Ishiq",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-zorza_pl",
+    "label": "Zorza",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-alba_ca",
+    "label": "Alba",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-romduol_km",
+    "label": "Romduol",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-aurora_pt_br",
+    "label": "Aurora",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-dao_lo",
+    "label": "Dao",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-tsiskari_ka",
+    "label": "Tsiskari",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-lente_af",
+    "label": "Lente",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-kiran_ne",
+    "label": "Kiran",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-zorka_be",
+    "label": "Zorka",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-nilaav_ml",
+    "label": "Nilaav",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-staer_lb",
+    "label": "Staer",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-drita_sq",
+    "label": "Drita",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-nila_ta",
+    "label": "Nila",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-aruna_si",
+    "label": "Aruna",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-vennela_te",
+    "label": "Vennela",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-sade_et",
+    "label": "Sade",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-bituon_ceb",
+    "label": "Bituon",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-vedrina_bs",
+    "label": "Vedrina",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-layaung_my",
+    "label": "LaYaung",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-luys_hy",
+    "label": "Luys",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-lumen_la",
+    "label": "Lumen",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-birta_is",
+    "label": "Birta",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-zerniq_mt",
+    "label": "Zerniq",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-nuru_sw",
+    "label": "Nuru",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-arai_kk",
+    "label": "Arai",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-zetwal_crs",
+    "label": "Zetwal",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  },
+  {
+    "id": "qwen-audio-3.1-tts-flash-zoria_uk",
+    "label": "Zoria",
+    "models": [
+      "qwen-audio-3.1-tts-flash"
+    ],
+    "kind": "system"
+  }
+]

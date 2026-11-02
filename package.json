@@ -1,0 +1,62 @@
+{
+  "name": "cortico-world-natural-voice",
+  "version": "0.6.0",
+  "type": "module",
+  "description": "Automatically read Coopanion's replies aloud through a configurable online TTS service",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "os": [
+    "win32"
+  ],
+  "main": "./src/index.js",
+  "keywords": [
+    "cortico-world",
+    "coopanion",
+    "tts"
+  ],
+  "files": [
+    "src",
+    "web",
+    "README.md",
+    "INSTRUCTIONS.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "describe.json",
+    "README.en.md",
+    "NOTICE.md"
+  ],
+  "cortico": {
+    "kind": "world",
+    "api": 6,
+    "displayName": "自然语音",
+    "describe": "describe.json",
+    "webUiClient": "web/client.js",
+    "webUiStyle": "web/style.css",
+    "locales": {
+      "zh": {
+        "displayName": "自然语音",
+        "description": "自动朗读桌宠回复，可配置联网 TTS 服务与音色。"
+      },
+      "en": {
+        "displayName": "Natural Voice",
+        "description": "Read pet replies aloud using a configurable online TTS service."
+      }
+    }
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "check": "node scripts/check.js",
+    "check:host": "node --experimental-transform-types scripts/check-host.js",
+    "package": "powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -File scripts/package.ps1"
+  },
+  "homepage": "https://github.com/guyin24/coopanion-natural-voice",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guyin24/coopanion-natural-voice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/guyin24/coopanion-natural-voice/issues"
+  }
+}
