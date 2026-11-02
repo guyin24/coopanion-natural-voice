@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.6.3
+
+- Keep the Chinese market introduction within npm's 255-character limit so the feedback guidance and link are not truncated.
+- Enforce that limit in the release checker; retain the full user/agent guides and issue forms from 0.6.2.
+
 ## 0.6.2
 
 - Make the market introduction Chinese-first, covering purpose, data/cost/playback effects, limitations and feedback links.

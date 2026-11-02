@@ -21,7 +21,7 @@ After the market index syncs, search **cortico-world-natural-voice** under Coopa
 
 For manual ZIP installation:
 
-1. Download `Coopanion-Natural-Voice-0.6.2.zip` from [Releases](https://github.com/guyin24/coopanion-natural-voice/releases/latest) and extract it completely to an ASCII path such as `D:\Plugins\cortico-world-natural-voice`.
+1. Download `Coopanion-Natural-Voice-0.6.3.zip` from [Releases](https://github.com/guyin24/coopanion-natural-voice/releases/latest) and extract it completely to an ASCII path such as `D:\Plugins\cortico-world-natural-voice`.
 2. In Coopanion, open **World extensions → Manual install → Local directory** and select the directory containing `package.json`.
 3. Restart when prompted, enable **Natural Voice**, and open **Voice settings and preview**.
 4. Save your provider credentials, choose a model/voice, save settings and preview.

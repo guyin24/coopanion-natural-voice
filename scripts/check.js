@@ -17,6 +17,8 @@ function checkFolder(folder) {
 for (const folder of ["src", "web", "scripts", "tests"])
   checkFolder(join(root, folder));
 const pkg = JSON.parse(readFileSync(join(root, "package.json"), "utf8"));
+assert.ok(typeof pkg.description === "string" && pkg.description.length <= 255, "npm truncates market descriptions beyond 255 characters");
+assert.equal(pkg.description, pkg.cortico.locales.zh.description, "Default and Chinese market descriptions must agree");
 for (const path of [
   pkg.main,
   pkg.cortico.webUiClient,

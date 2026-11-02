@@ -1,4 +1,4 @@
-# Coopanion 自然语音扩展 0.6.2
+# Coopanion 自然语音扩展 0.6.3
 
 Owner: `src/config.js`、`src/credentials.js`、`src/tts.js`、`src/providers/`、`src/world.js`、`web/client.js`。
 
@@ -10,7 +10,7 @@ Owner: `src/config.js`、`src/credentials.js`、`src/tts.js`、`src/providers/`�
 
 首次安装，或需要改为引用另一个目录时：
 
-1. 完整解压 `Coopanion-Natural-Voice-0.6.2.zip`（或直接使用本源码文件夹）。解压目录的完整路径使用英文、数字或横线，避免中文路径被 Coopanion 安装器拒绝。
+1. 完整解压 `Coopanion-Natural-Voice-0.6.3.zip`（或直接使用本源码文件夹）。解压目录的完整路径使用英文、数字或横线，避免中文路径被 Coopanion 安装器拒绝。
 2. 打开 Coopanion 设置 → World 扩展 → 手动安装 → 本机目录，选择**含 package.json 的 cortico-world-natural-voice 文件夹**。
 3. 如果原来引用其他目录，选择新版本目录后按页面提示重启进程。同名扩展会更新安装来源；不要删除原有记忆或配置。
 4. 启用“自然语音”World，打开“语音设置与试听”。

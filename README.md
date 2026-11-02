@@ -46,7 +46,7 @@
 
 也可以通过 ZIP 本机目录安装：
 
-1. 从 [Releases](https://github.com/guyin24/coopanion-natural-voice/releases/latest) 下载 `Coopanion-Natural-Voice-0.6.2.zip`，完整解压。建议使用英文路径，例如 `D:\Plugins\cortico-world-natural-voice`。
+1. 从 [Releases](https://github.com/guyin24/coopanion-natural-voice/releases/latest) 下载 `Coopanion-Natural-Voice-0.6.3.zip`，完整解压。建议使用英文路径，例如 `D:\Plugins\cortico-world-natural-voice`。
 2. 打开 Coopanion → World 扩展 → 手动安装 → 本机目录，选择含 `package.json` 的插件文件夹。
 3. 按提示重启进程，启用“自然语音”，打开“语音设置与试听”。
 4. 选择平台并填写凭据，点击“保存凭据并读取列表”，选择模型、音色，保存设置后试听。
