@@ -12,6 +12,7 @@ const upstream = resolve(process.argv[2] ?? join(root, '..', 'Coopanion', 'vendo
 const load = path => import(pathToFileURL(join(upstream, path)).href);
 const { parseExtensionManifest } = await load('src/extensions/manifest.ts');
 const { dryMountWorld } = await load('src/extensions/dry-mount.ts');
+const { checkDescribe } = await load('src/extensions/describe-export.ts');
 const { WorldAssembly } = await load('src/world.ts');
 const { JsonlEventStore } = await load('src/core/event-store.ts');
 const { nullLogger } = await load('src/core/util.ts');
@@ -25,6 +26,10 @@ try {
   const report = await dryMountWorld(definition, { scratchDir, packageDir: root, hasWebUiClient: true });
   assert.deepEqual(report.failures, []);
   assert.deepEqual(report.warnings, []);
+  const described = await checkDescribe('world', definition, pkg.cortico.describe, { scratchDir, packageDir: root });
+  assert.deepEqual(described.failures, []);
+  assert.deepEqual(described.warnings, []);
+  console.log('Official describe.json check including environment prompt contents passed.');
   console.log('Upstream manifest parser and dryMountWorld:', report.ok.join(' '));
   const dataDir = join(scratchDir, 'data');
   await mkdir(dataDir, { recursive: true });

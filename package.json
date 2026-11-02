@@ -1,9 +1,10 @@
 {
   "name": "cortico-world-natural-voice",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "type": "module",
   "description": "Automatically read Coopanion's replies aloud through a configurable online TTS service",
   "license": "MIT",
+  "author": "guyin24",
   "engines": {
     "node": ">=22"
   },
@@ -31,6 +32,7 @@
     "kind": "world",
     "api": 6,
     "displayName": "自然语音",
+    "tags": ["voice", "requires-key", "requires-extension", "experimental"],
     "describe": "describe.json",
     "webUiClient": "web/client.js",
     "webUiStyle": "web/style.css",

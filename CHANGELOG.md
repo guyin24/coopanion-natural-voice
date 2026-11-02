@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.6.1
+
+- Prepare the first public npm release as `cortico-world-natural-voice` with the existing World API 6 manifest.
+- Include environment prompt metadata in the generated market description and verify it with the upstream describe checker.
+- Declare market tags for voice, required service credentials, the desktop-pet extension dependency and limited-environment validation.
+- Document market/npm installation; preserve the 0.6.0 voice runtime and configuration behavior.
+
 ## 0.6.0
 
 - Follow existing pet mood by default without extra model tokens/tools; optional tones-only ordinal annotations replace duplicated speech bodies.

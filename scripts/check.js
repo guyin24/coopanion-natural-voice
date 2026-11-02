@@ -25,8 +25,15 @@ for (const path of [
 ]) {
   assert.ok(existsSync(resolve(root, path)), `Missing package entry: ${path}`);
 }
-assert.deepEqual(
-  definition.describe,
-  JSON.parse(readFileSync(join(root, "describe.json"), "utf8")),
-);
+const instance = definition.create({ cfg: definition.defaults(), secret: () => "", storeSecret() {} });
+const seenPromptKeys = new Set();
+const prompts = (instance.webUi("zh").promptDocs ?? [])
+  .filter((doc) => {
+    if (doc.role !== "envPrompt" || seenPromptKeys.has(doc.key) || !existsSync(doc.path)) return false;
+    seenPromptKeys.add(doc.key);
+    return true;
+  })
+  .map((doc) => ({ key: doc.key, title: doc.title, role: doc.role, content: readFileSync(doc.path, "utf8").replace(/^\uFEFF/, "") }));
+const expectedDescription = prompts.length ? { ...definition.describe, prompts } : definition.describe;
+assert.deepEqual(expectedDescription, JSON.parse(readFileSync(join(root, "describe.json"), "utf8")));
 console.log("Syntax, package entry files and describe.json passed.");

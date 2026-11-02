@@ -4,6 +4,7 @@ scratch/
 .playwright-cli/
 *.tgz
 .env
+.npmrc
 .env.*
 !.env.example
 *.log
