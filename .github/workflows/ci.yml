@@ -59,9 +59,4 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          $version = (Get-Content package.json -Raw | ConvertFrom-Json).version
-          if ($env:GITHUB_REF_NAME -ne "v$version") { throw 'Tag and package version differ.' }
-          $assets = @(Get-ChildItem -LiteralPath output -File | Where-Object { $_.Extension -in '.zip', '.tgz' -or $_.Name -eq 'SHA256SUMS.txt' } | Select-Object -ExpandProperty FullName)
-          if ($assets.Count -ne 3) { throw 'Expected ZIP, tarball and checksum assets.' }
-          gh release create $env:GITHUB_REF_NAME @assets --verify-tag --title "Natural Voice $env:GITHUB_REF_NAME" --notes-file "docs/releases/$env:GITHUB_REF_NAME.md"
-          if ($LASTEXITCODE -ne 0) { throw 'Release publication failed.' }
+          ./scripts/publish-release.ps1 -Tag $env:GITHUB_REF_NAME -ExpectedCommit $env:GITHUB_SHA -Repository $env:GITHUB_REPOSITORY
