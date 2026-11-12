@@ -10,7 +10,7 @@ $version = (Get-Content -LiteralPath (Join-Path $PSScriptRoot '../package.json')
 if ($Tag -ne "v$version" -or $ExpectedCommit -notmatch '^[a-f0-9]{40}$') { throw 'Release tag or commit is invalid.' }
 $tagCommit = & git rev-parse "${Tag}^{commit}"
 if ($LASTEXITCODE -ne 0 -or $tagCommit -ne $ExpectedCommit) { throw 'Release tag does not match the checked commit.' }
-$requiredNames = @("Coopanion-Natural-Voice-$version.zip", "cortico-world-natural-voice-$version.tgz", 'SHA256SUMS.txt')
+$requiredNames = @("Coopanion-Natural-Voice-Market-$version.zip", "Coopanion-Natural-Voice-Full-$version.zip", "cortico-world-natural-voice-$version.tgz", 'SHA256SUMS.txt')
 $existingJson = & gh release view $Tag --repo $Repository --json isDraft,assets 2>$null
 if ($LASTEXITCODE -eq 0) {
   $existing = $existingJson | ConvertFrom-Json

@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { NaturalVoiceWorld } from '../src/world.js';
+import { FullNaturalVoiceWorld as NaturalVoiceWorld } from '../full/index.js';
 import { DEFAULTS } from '../src/config.js';
 import { credentialName, saveCredentials } from '../src/credentials.js';
 import { say, storeWith, until, wave } from './helpers.js';
@@ -261,7 +261,7 @@ test('outputTap.onEvent parses streaming pet_say script and prewarms first sente
 });
 
 test('bubble sync gate holds pet_say WebSocket message until first audio playback starts', async t => {
-  const { wrapPetWebSocket } = await import('../src/pet-sync.js');
+  const { wrapPetWebSocket } = await import('../full/pet-sync.js');
   const events = [];
   let releaseSynth;
   const synthGate = new Promise(resolve => { releaseSynth = resolve; });

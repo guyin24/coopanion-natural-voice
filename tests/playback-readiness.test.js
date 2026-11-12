@@ -1,9 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {NaturalVoiceWorld} from '../src/world.js';
+import {FullNaturalVoiceWorld as NaturalVoiceWorld} from '../full/index.js';
 import {DEFAULTS} from '../src/config.js';
 import {wave,until} from './helpers.js';
-import {setBubbleSyncGate,wrapPetWebSocket} from '../src/pet-sync.js';
+import {setBubbleSyncGate,wrapPetWebSocket} from '../full/pet-sync.js';
 
 for(const early of [false,true]){
   test(`${early?'early chunk':'whole audio'} waits for native readiness before showing its bubble`,async t=>{

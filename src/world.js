@@ -39,14 +39,6 @@ import {
   getPlayerDiagnostics,
 } from "./player.js";
 import { discoverCatalog, getBuiltinCatalog } from "./catalog.js";
-import {
-  setBubbleSyncGate,
-  claimPendingBubble,
-  flushPendingBubbles,
-  scanActivePetSockets,
-  getBubbleSyncDiagnostics,
-} from "./pet-sync.js";
-import { subscribeStoreAppend } from "./store-subscription.js";
 import { fileURLToPath } from "node:url";
 import {
   TONE_TOOL,
@@ -101,7 +93,6 @@ export class NaturalVoiceWorld {
   active = null;
   task = null;
   timer = null;
-  unsubscribeStore = null;
   host = null;
   phase = "offline";
   error = "";
@@ -113,6 +104,7 @@ export class NaturalVoiceWorld {
 
   constructor(context, options = {}) {
     this.context = context;
+    this.bubbleSync = options.bubbleSync;
     migrateLegacyKey(context);
     Object.assign(context.cfg, normalizeConfig(context.cfg));
     this.synthesize = options.synthesize ?? synthesize;
@@ -215,7 +207,6 @@ export class NaturalVoiceWorld {
     if (!this.running) return;
     if (phase?.state === "model") {
       if (this.play === playWave) warmPlayer();
-      scanActivePetSockets();
       if (
         this.context.cfg.autoRead &&
         this.synthesize === synthesize &&
@@ -541,7 +532,7 @@ export class NaturalVoiceWorld {
         this.tonePlans.clear();
         this.streamItems.clear();
         this.clearPrewarmCache();
-        flushPendingBubbles();
+        this.bubbleSync?.flushPendingBubbles();
       },
     };
   }
@@ -710,7 +701,7 @@ export class NaturalVoiceWorld {
       modelToneEnabled: this.modelToneEnabled(),
       pendingToneLines: this.tonePlans.pending,
       lastTone: this.lastTone,
-      sync: getBubbleSyncDiagnostics(),
+      sync: this.bubbleSync?.getBubbleSyncDiagnostics(),
       player:
         this.play === playWave ? getPlayerDiagnostics() : { injected: true },
       phase: this.phase,
@@ -732,7 +723,7 @@ export class NaturalVoiceWorld {
     this.running = true;
     this.phase = "idle";
     if (this.play === playWave) warmPlayer();
-    setBubbleSyncGate(() => ({
+    this.bubbleSync?.setBubbleSyncGate(() => ({
       enabled: Boolean(
         this.running &&
         this.context.cfg.autoRead &&
@@ -741,13 +732,6 @@ export class NaturalVoiceWorld {
       timeoutMs: 1800,
       maxChars: this.context.cfg.maxChars,
     }));
-    this.unsubscribeStore = subscribeStoreAppend(host.store, () => {
-      try {
-        this.poll();
-      } catch (error) {
-        this.report(error);
-      }
-    });
     this.timer = setInterval(() => {
       try {
         this.poll();
@@ -760,12 +744,10 @@ export class NaturalVoiceWorld {
 
   async stop() {
     this.running = false;
-    setBubbleSyncGate(null);
+    this.bubbleSync?.setBubbleSyncGate(null);
     this.cancel();
     clearWarmAliyunTasks();
     for (const job of this.catalogJobs) job.abort();
-    this.unsubscribeStore?.();
-    this.unsubscribeStore = null;
     clearInterval(this.timer);
     this.timer = null;
     await this.task;
@@ -775,10 +757,11 @@ export class NaturalVoiceWorld {
   }
 
   releaseEventBubble(event) {
+    if (!this.bubbleSync) return;
     const opening = spokenSegments(event, this.context.cfg.maxChars)[0];
     if (opening) {
-      const group = claimPendingBubble(opening);
-      flushPendingBubbles(opening, group);
+      const group = this.bubbleSync.claimPendingBubble(opening);
+      this.bubbleSync.flushPendingBubbles(opening, group);
     }
   }
   poll() {
@@ -788,7 +771,7 @@ export class NaturalVoiceWorld {
     if (latest < this.cursor) this.cursor = 0;
     if (!this.context.cfg.autoRead) {
       this.cursor = latest;
-      flushPendingBubbles();
+      this.bubbleSync?.flushPendingBubbles();
       if (this.active && !this.active.preview) this.cancel();
       return;
     }
@@ -886,10 +869,10 @@ export class NaturalVoiceWorld {
     gainHolder = { gain: null },
   ) {
     const bubbleGroup = releaseBubble
-      ? claimPendingBubble(bubbleOpeningText)
+      ? this.bubbleSync?.claimPendingBubble(bubbleOpeningText)
       : null;
     const reject = () => {
-      if (releaseBubble) flushPendingBubbles(bubbleOpeningText, bubbleGroup);
+      if (releaseBubble) this.bubbleSync?.flushPendingBubbles(bubbleOpeningText, bubbleGroup);
     };
     try {
       if (!this.running) throw new Error("请先启用自然语音 World。");
@@ -1019,7 +1002,7 @@ export class NaturalVoiceWorld {
       this.phase = "playing";
       this.lastTone = tone;
       if (releaseBubble)
-        flushPendingBubbles(bubbleGroup?.openingKey ?? jobText, bubbleGroup);
+        this.bubbleSync?.flushPendingBubbles(bubbleGroup?.openingKey ?? jobText, bubbleGroup);
       if (this.queue.length) this.startPrefetch(this.queue[0]);
     };
     let onAbort = null;
@@ -1177,7 +1160,7 @@ export class NaturalVoiceWorld {
       }
       if (!job.preview && !this.context.cfg.autoRead) {
         job.prefetch?.controller?.abort();
-        flushPendingBubbles();
+        this.bubbleSync?.flushPendingBubbles();
         continue;
       }
       if (
@@ -1216,7 +1199,7 @@ export class NaturalVoiceWorld {
           job.gainHolder ?? { gain: null },
         );
       } catch (error) {
-        flushPendingBubbles();
+        this.bubbleSync?.flushPendingBubbles();
         if (!controller.signal.aborted) this.report(error);
       } finally {
         if (this.active === controller) this.active = null;
@@ -1233,7 +1216,7 @@ export class NaturalVoiceWorld {
     this.clearPrewarmCache();
     this.streamItems.clear();
     this.active?.abort();
-    flushPendingBubbles();
+    this.bubbleSync?.flushPendingBubbles();
     if (this.host) this.cursor = this.host.store.latestCursor();
   }
 

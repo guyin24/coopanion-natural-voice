@@ -1,8 +1,8 @@
 {
   "name": "cortico-world-natural-voice",
-  "version": "0.6.3",
+  "version": "0.7.0",
   "type": "module",
-  "description": "作用：朗读桌宠回复，支持多平台联网 TTS、音色、试听与停止。\n影响：需 API Key；文字发往所选服务并可能收费，预合成和语气标注可能增加费用与等待。\n局限：仅 Windows，依赖桌宠；连续推流仅阿里，不保证零延迟、逐字或口型同步。\n反馈：用户请提供版本、模型音色、步骤和脱敏报错；agent 区分实测、推测及未验证项。描述不清可让 agent 代笔，核对后提交。\n[反馈入口](https://github.com/guyin24/coopanion-natural-voice/issues)",
+  "description": "Windows 桌宠自动朗读，支持多平台 TTS、音色和试听。需 API Key，文字发往所选服务并可能计费。市场版气泡直接显示；完整版含实验性气泡同步，依赖宿主内部接口。\n[两版说明与反馈](https://github.com/guyin24/coopanion-natural-voice)\n用户请提供版本、模型音色、步骤和脱敏报错；agent 区分实测与推测。描述不清可让 agent 代笔，核对后提交。",
   "license": "MIT",
   "author": "guyin24",
   "engines": {
@@ -45,11 +45,11 @@
     "locales": {
       "zh": {
         "displayName": "自然语音",
-        "description": "作用：朗读桌宠回复，支持多平台联网 TTS、音色、试听与停止。\n影响：需 API Key；文字发往所选服务并可能收费，预合成和语气标注可能增加费用与等待。\n局限：仅 Windows，依赖桌宠；连续推流仅阿里，不保证零延迟、逐字或口型同步。\n反馈：用户请提供版本、模型音色、步骤和脱敏报错；agent 区分实测、推测及未验证项。描述不清可让 agent 代笔，核对后提交。\n[反馈入口](https://github.com/guyin24/coopanion-natural-voice/issues)"
+        "description": "Windows 桌宠自动朗读，支持多平台 TTS、音色和试听。需 API Key，文字发往所选服务并可能计费。市场版气泡直接显示；完整版含实验性气泡同步，依赖宿主内部接口。\n[两版说明与反馈](https://github.com/guyin24/coopanion-natural-voice)\n用户请提供版本、模型音色、步骤和脱敏报错；agent 区分实测与推测。描述不清可让 agent 代笔，核对后提交。"
       },
       "en": {
         "displayName": "Natural Voice",
-        "description": "Read pet replies via online TTS. Needs keys; sends text to the selected service and may incur fees. Windows/desktop-pet required; no exact sync. Report versions, steps and redacted errors in GitHub Issues. Ask an agent to draft, then review it."
+        "description": "Windows pet reply TTS. Requires API keys; sends text to your provider and may incur fees. Market bubbles show immediately. [Full edition with experimental sync and feedback](https://github.com/guyin24/coopanion-natural-voice)"
       }
     }
   },

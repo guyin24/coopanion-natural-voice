@@ -1,4 +1,4 @@
-param([string]$OutputDirectory = 'output')
+﻿param([string]$OutputDirectory = 'output')
 $ErrorActionPreference = 'Stop'
 function FileSha256([string]$Path) {
   $hasher = [Security.Cryptography.SHA256]::Create()
@@ -16,9 +16,12 @@ $version = $pkg.version
 if ($version -notmatch '^\d+\.\d+\.\d+(?:-[A-Za-z0-9.-]+)?$') { throw 'Invalid release version.' }
 $stage = Join-Path $out ('package-' + $version)
 $folder = Join-Path $stage 'cortico-world-natural-voice'
-$archive = Join-Path $out ('Coopanion-Natural-Voice-' + $version + '.zip')
+$fullStage = Join-Path $out ('package-full-' + $version)
+$fullFolder = Join-Path $fullStage 'cortico-world-natural-voice'
+$archive = Join-Path $out ('Coopanion-Natural-Voice-Market-' + $version + '.zip')
+$fullArchive = Join-Path $out ('Coopanion-Natural-Voice-Full-' + $version + '.zip')
 $tarball = Join-Path $out ($pkg.name + '-' + $version + '.tgz')
-foreach ($target in @($stage, $archive, $tarball)) {
+foreach ($target in @($stage, $fullStage, $archive, $fullArchive, $tarball)) {
   if (Test-Path -LiteralPath $target) { throw 'Build target exists. Use a clean checkout or a new -OutputDirectory.' }
 }
 New-Item -ItemType Directory -Path $out -Force | Out-Null
@@ -38,8 +41,8 @@ $sourcePrefix = $root.TrimEnd('\') + '\'
 $destPrefix = $folder.TrimEnd('\') + '\'
 foreach ($entry in $manifest.files) {
   $relative = $entry.path.Replace('\', '/')
-  if ($relative -match '(^|/)(\.env(?:\..*)?|node_modules|scratch|output|tests|scripts|docs)(/|$)' -or $relative -match '(^|/)\.\.(/|$)') {
-    throw 'Development or unsafe data in npm manifest.'
+  if ($relative -match '(^|/)(\.env(?:\..*)?|node_modules|scratch|output|tests|scripts|docs|full)(/|$)' -or $relative -match '(^|/)\.\.(/|$)') {
+    throw 'Unexpected development or full-edition file in the npm package.'
   }
   $source = [IO.Path]::GetFullPath((Join-Path $root $relative))
   $dest = [IO.Path]::GetFullPath((Join-Path $folder $relative))
@@ -72,10 +75,24 @@ if ($names.Count -ne $manifest.files.Count) { throw 'Archive file count mismatch
 foreach ($required in @('package.json', 'src/index.js', 'src/native/PcmPlayer.cs', 'src/player-stream.js', 'src/providers/aliyun-stream.js', 'web/client.js', 'describe.json', 'LICENSE', 'NOTICE.md', 'FEEDBACK.md')) {
   if ($required -notin $names) { throw ('Missing runtime file: ' + $required) }
 }
-$checksums = @($archive, $tarball) | ForEach-Object {
+New-Item -ItemType Directory -Path $fullStage | Out-Null
+Copy-Item -LiteralPath $folder -Destination $fullFolder -Recurse
+Copy-Item -LiteralPath (Join-Path $root 'full') -Destination $fullFolder -Recurse
+$pkg | Add-Member -NotePropertyName private -NotePropertyValue $true
+$pkg.main = './full/index.js'
+$pkg.files += 'full'
+$pkg.description = 'Windows 桌宠自然语音完整版，含实验性气泡同步。同步依赖宿主内部接口，最多延后气泡 1800 毫秒。'
+$pkg.cortico.locales.zh.displayName = '自然语音完整版'
+$pkg.cortico.locales.zh.description = $pkg.description
+$pkg.cortico.locales.en.displayName = 'Natural Voice Full'
+$pkg.cortico.locales.en.description = 'Windows TTS with experimental bubble synchronization. Uses private host interfaces and can delay a bubble by up to 1800 ms.'
+$pkg.cortico.displayName = $pkg.cortico.locales.zh.displayName
+[IO.File]::WriteAllText((Join-Path $fullFolder 'package.json'), ($pkg | ConvertTo-Json -Depth 20) + "`n", (New-Object Text.UTF8Encoding($false)))
+Compress-Archive -LiteralPath $fullFolder -DestinationPath $fullArchive -CompressionLevel Optimal
+$checksums = @($archive, $fullArchive, $tarball) | ForEach-Object {
   (FileSha256 $_).ToLowerInvariant() + '  ' + [IO.Path]::GetFileName($_)
 }
 [IO.File]::WriteAllText((Join-Path $out 'SHA256SUMS.txt'), [string]::Join("`n", $checksums) + "`n", (New-Object Text.UTF8Encoding($false)))
-$result = @{ version = $version; files = $names.Count; sourceHashesMatch = $true; archive = $archive; tarball = $tarball }
+$result = @{ version = $version; files = $names.Count; sourceHashesMatch = $true; archive = $archive; fullArchive = $fullArchive; tarball = $tarball }
 $result | ConvertTo-Json | Set-Content -LiteralPath (Join-Path $out 'package-verification.json') -Encoding UTF8
 $result | ConvertTo-Json

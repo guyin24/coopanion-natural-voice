@@ -1,0 +1,42 @@
+name: Coopanion compatibility
+
+on:
+  schedule:
+    - cron: '30 3 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  latest-release:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 24
+      - id: latest
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $tag = gh api repos/Pal-AI-Lab/Coopanion/releases/latest --jq .tag_name
+          if ($LASTEXITCODE -ne 0 -or $tag -notmatch '^v\d+\.\d+\.\d+$') { throw "Invalid Coopanion release tag: $tag" }
+          "tag=$tag" >> $env:GITHUB_OUTPUT
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: Pal-AI-Lab/Coopanion
+          ref: ${{ steps.latest.outputs.tag }}
+          submodules: true
+          path: output/upstream-coopanion
+          persist-credentials: false
+      - run: npm run package
+      - name: Mount both packages with the latest stable Cortico
+        shell: pwsh
+        run: |
+          $version = (Get-Content package.json -Raw | ConvertFrom-Json).version
+          foreach ($stage in @("package-$version", "package-full-$version")) {
+            npm run check:host -- output/upstream-coopanion/vendor/cortico "output/$stage/cortico-world-natural-voice" --contract-only
+            if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          }

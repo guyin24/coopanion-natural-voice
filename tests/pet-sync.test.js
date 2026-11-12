@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import http from 'node:http';
-import {setBubbleSyncGate} from '../src/pet-sync.js';
+import {setBubbleSyncGate} from '../full/pet-sync.js';
 
 test('removing and reinstalling the bubble gate preserves an HTTP wrapper installed after it',()=>{
   const original=http.Server.prototype.emit;

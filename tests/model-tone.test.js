@@ -1,9 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {NaturalVoiceWorld} from '../src/world.js';
+import {FullNaturalVoiceWorld as NaturalVoiceWorld} from '../full/index.js';
 import {DEFAULTS,PRESETS} from '../src/config.js';
 import {say,storeWith,until,wave} from './helpers.js';
-import {wrapPetWebSocket} from '../src/pet-sync.js';
+import {wrapPetWebSocket} from '../full/pet-sync.js';
 
 function fixture(t,overrides={}){
   const cfg={...DEFAULTS,...PRESETS.aliyun,toneMode:'ordinal',model:'qwen-audio-3.1-tts-flash',voice:'anyuqing_v3.1',workspaceId:'tone-fixture',enabled:true,...overrides};

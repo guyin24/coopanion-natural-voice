@@ -1,5 +1,5 @@
 import http from "node:http";
-import { normalizeSegmentKey, spokenSegments } from "./text.js";
+import { normalizeSegmentKey, spokenSegments } from "../src/text.js";
 
 const HOOK_SYM = Symbol.for("cortico.naturalVoice.petSyncHooked");
 const WRAPPED_WS_SYM = Symbol.for("cortico.naturalVoice.wsWrapped");

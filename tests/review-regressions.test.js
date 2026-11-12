@@ -2,14 +2,14 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import http from "node:http";
 import { EventEmitter } from "node:events";
-import { NaturalVoiceWorld } from "../src/world.js";
+import { FullNaturalVoiceWorld as NaturalVoiceWorld } from "../full/index.js";
 import { DEFAULTS, PRESETS } from "../src/config.js";
 import { TONE_TOOL, DeliveryPlans } from "../src/delivery.js";
 import {
   wrapPetWebSocket,
   setBubbleSyncGate,
   getBubbleSyncDiagnostics,
-} from "../src/pet-sync.js";
+} from "../full/pet-sync.js";
 import { say, storeWith, wave, until } from "./helpers.js";
 
 function fixture(t, config = {}) {

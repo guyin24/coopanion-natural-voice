@@ -1,5 +1,14 @@
 # Validation scope
 
+## 0.7.0
+
+- 269 tests passed on Windows, including the real audio device and the market edition's public store regression.
+- Both extracted ZIPs passed the manifest, dry-mount and describe checks with the Cortico 0.2.14 source bundled in Coopanion 0.2.19. The market npm tarball contains 37 files and excludes the full edition directory.
+- Both ZIPs read a new reply from the upstream event store, synthesized via loopback and finished Windows native playback. With Coopanion 0.2.19's actual PetServer and a local WebSocket connection, the market bubble arrived before audio was available and the full bubble arrived during playback.
+- The 0.7.0 integration uses a local TTS response and an isolated host harness. It does not include a cloud TTS run or an installation into the user's running Coopanion profile. The scheduled CI job checks both package contracts against the latest stable release.
+
+## 0.6.x
+
 Recorded 2026-11-02, version 0.6.0. This is the first public source snapshot. Local development checkpoints remain outside this public repository.
 
 Version 0.6.1 updates npm/market metadata and installation documentation only; its `src/` and `web/` runtime files are unchanged from the validated 0.6.0 baseline. Its release checks run again before publication.

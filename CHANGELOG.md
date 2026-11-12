@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.7.0
+
+- Ship a market edition that reads replies through the public World API and leaves bubble delivery to Coopanion.
+- Ship the experimental bubble synchronization as a separate GitHub ZIP. Both editions share the TTS engine, plugin ID and saved configuration.
+- Validate both packages against the Cortico version bundled with Coopanion 0.2.19 and check future stable releases weekly.
+
 ## 0.6.3
 
 - Keep the Chinese market introduction within npm's 255-character limit so the feedback guidance and link are not truncated.

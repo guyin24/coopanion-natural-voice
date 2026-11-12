@@ -14,7 +14,7 @@ function checkFolder(folder) {
       execFileSync(process.execPath, ["--check", path]);
   }
 }
-for (const folder of ["src", "web", "scripts", "tests"])
+for (const folder of ["src", "full", "web", "scripts", "tests"])
   checkFolder(join(root, folder));
 const pkg = JSON.parse(readFileSync(join(root, "package.json"), "utf8"));
 assert.ok(typeof pkg.description === "string" && pkg.description.length <= 255, "npm truncates market descriptions beyond 255 characters");

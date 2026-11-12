@@ -11,30 +11,30 @@ An independently maintained Windows plugin that reads [Coopanion](https://github
 - Model/voice discovery with labeled official presets and custom IDs. An available catalog entry does not imply account authorization.
 - Continuous Aliyun WebSocket PCM playback, handshake prewarming, bounded speculative synthesis and a persistent interruptible Windows waveOut player.
 - Qwen Audio 3.0/3.1 Plus/Flash speaking instructions and expression following. Optional `tones` annotations avoid repeating the spoken text.
-- Per-reply gain, ordered playback, credential isolation and bubble synchronization with self-check/fail-open behavior.
+- Per-reply gain, ordered playback and credential isolation.
 
 Supply your own TTS credentials. Spoken text goes to the selected provider, which may charge for usage. Voices are AI-generated.
 
 ## Install and update
 
-After the market index syncs, search **cortico-world-natural-voice** under Coopanion’s World extension market. Install it and restart when prompted. [npm package](https://www.npmjs.com/package/cortico-world-natural-voice). Automatic speech requires the desktop-pet World’s reply events; a plain Cortico deployment must supply that extension separately.
+The market edition leaves bubble timing to Coopanion and reads new pet replies. The full edition adds experimental bubble synchronization using private host interfaces. Restoring the market listing requires a maintainer review. Automatic speech requires the desktop-pet World’s reply events. [Market edition on npm](https://www.npmjs.com/package/cortico-world-natural-voice)
 
 For manual ZIP installation:
 
-1. Download `Coopanion-Natural-Voice-0.6.3.zip` from [Releases](https://github.com/guyin24/coopanion-natural-voice/releases/latest) and extract it completely to an ASCII path such as `D:\Plugins\cortico-world-natural-voice`.
+1. Download `Coopanion-Natural-Voice-Market-0.7.0.zip` or `Coopanion-Natural-Voice-Full-0.7.0.zip` and extract it completely to an ASCII path such as `D:\Plugins\cortico-world-natural-voice`. [Releases](https://github.com/guyin24/coopanion-natural-voice/releases/latest)
 2. In Coopanion, open **World extensions → Manual install → Local directory** and select the directory containing `package.json`.
 3. Restart when prompted, enable **Natural Voice**, and open **Voice settings and preview**.
 4. Save your provider credentials, choose a model/voice, save settings and preview.
 
-Keep the linked directory in place. To update, exit Coopanion, replace files in that directory with the new release, and start it again. The host preserves configuration and secrets. GitHub's source archives include development files; use the named release ZIP for installation.
+Both editions use the same World ID. Install one per instance. To update or switch a local installation, exit Coopanion, replace the entire contents of the linked directory with the extracted release, and start it again. The host stores configuration and secrets by World ID.
 
-Validated host: Coopanion 0.2.16, Cortico 0.2.11, World API 6. Windows 10/11 are target platforms; clean-system and multi-device audio matrices have not been completed.
+The current source compatibility baseline is Coopanion 0.2.19 with Cortico 0.2.14 and World API 6. Windows 10/11 are target platforms. Clean-system and multi-device audio matrices have not been completed.
 
 ## Delivery and limitations
 
 Default expression following adds no model tool or output; missing expressions use the global style. Optional ordinal annotations can add generation time or a model round and may be skipped by the reply model. After changing modes, save and reload the host's system prefix or restart.
 
-Bubble gating waits up to 1800ms for native playback submission. A private compatibility hook is still needed until the host offers a supported gate API; failed verification displays text immediately. Network and device latency remain. Word-by-word and lip synchronization are not implemented. Continuous provider streaming currently covers Aliyun WebSocket only.
+In the full edition, the experimental hook can hold a pet bubble for up to 1800 ms while playback starts. If it cannot verify the connection, text appears immediately. Coopanion's separate Chat page keeps the host's timing. Network and device latency remain. Continuous provider streaming currently covers Aliyun WebSocket only.
 
 ## Effects and reporting
 
@@ -63,6 +63,6 @@ npm run check:host -- C:\src\Cortico
 npm run package
 ```
 
-Packaging runs on Windows and emits the installation ZIP, npm tarball and SHA-256 sums. See [validation](https://github.com/guyin24/coopanion-natural-voice/blob/main/docs/validation.md), [architecture](https://github.com/guyin24/coopanion-natural-voice/blob/main/docs/architecture.md), and [contributing](https://github.com/guyin24/coopanion-natural-voice/blob/main/CONTRIBUTING.md).
+Packaging runs on Windows and emits both installation ZIPs, the market edition npm tarball and SHA-256 sums. [Validation](https://github.com/guyin24/coopanion-natural-voice/blob/main/docs/validation.md) · [Architecture](https://github.com/guyin24/coopanion-natural-voice/blob/main/docs/architecture.md) · [Contributing](https://github.com/guyin24/coopanion-natural-voice/blob/main/CONTRIBUTING.md)
 
 Plugin code is [MIT licensed](LICENSE). [NOTICE](NOTICE.md) identifies the host projects and provider catalog sources. Host binaries, credentials, chat records and generated audio are excluded.
